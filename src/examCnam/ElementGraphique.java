@@ -11,10 +11,10 @@ public class ElementGraphique {
 		hauteur = 0;
 		largeur = 0;
 	}
-	public ElementGraphique(String nom, int hauteur, int largeur){
-		nom = this.nom;
-		hauteur = this.hauteur;
-		largeur = this.largeur;
+	public ElementGraphique(String cNom, int cHauteur, int cLargeur){
+		nom = cNom;
+		hauteur = cHauteur;
+		largeur = cLargeur;
 		}
 	//accesseurs et mutateurs
 	public String getNom(){

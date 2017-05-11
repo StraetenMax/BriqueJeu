@@ -9,6 +9,13 @@ public class Main {
 		Brique B2 = new Brique("Brique2",40,200,700,300,0);
 		Mur M1 = new Mur("Mur1",40,20000,1,1,"bleu");
 		Mur M2 = new Mur("Mur 2",20000,40,1,1,"bleu");
-	}
 
+		//appeler méthodes
+		System.out.println(E1.description());
+		System.out.println(F1.description());
+		System.out.println(B1.description());
+		
+		System.out.println(B1.estMoinsAbimeeQue(B2));
+		System.out.println(M1.plusHautQue(M2));
+}
 }
